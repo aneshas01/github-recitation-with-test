@@ -10,7 +10,8 @@ def fibonacci(position):
     return 1
   elif (position == 0):
     return 0
-  return fibonacci(position - 1) + fibonacci(position - 2)
+  else:
+    return fibonacci(position - 1) + fibonacci(position - 2)
 
 
 
